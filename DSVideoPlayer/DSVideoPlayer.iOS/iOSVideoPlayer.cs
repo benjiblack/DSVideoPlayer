@@ -3,8 +3,8 @@ using AVKit;
 using Foundation;
 using UIKit;
 
-[assembly: Xamarin.Forms.Dependency(typeof(DependencyServiceVideoPlayer.iOS.iOSVideoPlayer))]
-namespace DependencyServiceVideoPlayer.iOS
+[assembly: Xamarin.Forms.Dependency(typeof(DSVideoPlayer.iOS.iOSVideoPlayer))]
+namespace DSVideoPlayer.iOS
 {
     class iOSVideoPlayer : IVideoPlayer
     {

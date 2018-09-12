@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace DependencyServiceVideoPlayer.UWP
+namespace DSVideoPlayer.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace DependencyServiceVideoPlayer.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new DependencyServiceVideoPlayer.App());
+            LoadApplication(new DSVideoPlayer.App());
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 
-[assembly: Xamarin.Forms.Dependency(typeof(DependencyServiceVideoPlayer.Droid.AndroidVideoPlayer))]
-namespace DependencyServiceVideoPlayer.Droid
+[assembly: Xamarin.Forms.Dependency(typeof(DSVideoPlayer.Droid.AndroidVideoPlayer))]
+namespace DSVideoPlayer.Droid
 {
     class AndroidVideoPlayer : IVideoPlayer
     {

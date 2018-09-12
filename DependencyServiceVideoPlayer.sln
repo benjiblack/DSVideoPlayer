@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyServiceVideoPlayer.Android", "DependencyServiceVideoPlayer\DependencyServiceVideoPlayer.Android\DependencyServiceVideoPlayer.Android.csproj", "{4F0E9647-39DD-4677-8B75-1AFBC3C97AE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSVideoPlayer.Android", "DSVideoPlayer\DSVideoPlayer.Android\DSVideoPlayer.Android.csproj", "{4F0E9647-39DD-4677-8B75-1AFBC3C97AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyServiceVideoPlayer.iOS", "DependencyServiceVideoPlayer\DependencyServiceVideoPlayer.iOS\DependencyServiceVideoPlayer.iOS.csproj", "{BC4C9C7C-C8A6-43DA-9ED1-6C7D5C3E273A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSVideoPlayer.iOS", "DSVideoPlayer\DSVideoPlayer.iOS\DSVideoPlayer.iOS.csproj", "{BC4C9C7C-C8A6-43DA-9ED1-6C7D5C3E273A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyServiceVideoPlayer.UWP", "DependencyServiceVideoPlayer\DependencyServiceVideoPlayer.UWP\DependencyServiceVideoPlayer.UWP.csproj", "{E9DAA11D-74C2-46D2-B484-5B55D0181F7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSVideoPlayer.UWP", "DSVideoPlayer\DSVideoPlayer.UWP\DSVideoPlayer.UWP.csproj", "{E9DAA11D-74C2-46D2-B484-5B55D0181F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyServiceVideoPlayer", "DependencyServiceVideoPlayer\DependencyServiceVideoPlayer\DependencyServiceVideoPlayer.csproj", "{B50ADC72-4122-469A-9A69-FB2D5A0EB9E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSVideoPlayer", "DSVideoPlayer\DSVideoPlayer\DSVideoPlayer.csproj", "{B50ADC72-4122-469A-9A69-FB2D5A0EB9E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

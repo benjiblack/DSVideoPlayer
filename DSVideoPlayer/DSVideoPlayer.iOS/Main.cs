@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace DependencyServiceVideoPlayer.iOS
+namespace DSVideoPlayer.iOS
 {
     public class Application
     {

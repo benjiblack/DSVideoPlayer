@@ -144,12 +144,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DependencyServiceVideoPlayer\DependencyServiceVideoPlayer.csproj">
-      <Project>{D88964C3-F7D0-4999-BABC-17446BD358E8}</Project>
-      <Name>DependencyServiceVideoPlayer</Name>
+    <ProjectReference Include="..\DSVideoPlayer\DSVideoPlayer.csproj">
+      <Project>{b50adc72-4122-469a-9a69-fb2d5a0eb9e2}</Project>
+      <Name>DSVideoPlayer</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

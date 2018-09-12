@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace DependencyServiceVideoPlayer
+namespace DSVideoPlayer
 {
     public partial class MainPage : ContentPage
     {
