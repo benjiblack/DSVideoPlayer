@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace DSVideoPlayer
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage
     {
-        IVideoPlayer videoPlayer = DependencyService.Get<IVideoPlayer>();
+        readonly IVideoPlayer _videoPlayer = DependencyService.Get<IVideoPlayer>();
 
         public MainPage()
         {
@@ -18,7 +14,7 @@ namespace DSVideoPlayer
 
         private void PlayVideo(object sender, EventArgs e)
         {
-            videoPlayer.PlayVideo("https://s3.amazonaws.com/digital.cds/mobileapplications/oilyapp/multimedia/Oily+App-+Origins-+Andy\'s+edit.mp4");
+            _videoPlayer.PlayVideo("https://s3.amazonaws.com/digital.cds/mobileapplications/oilyapp/multimedia/chik_fil_a/Oily+App+01-+Fry+the+Chicken.mp4");
         }
     }
 }
