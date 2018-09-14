@@ -8,7 +8,7 @@ namespace DSVideoPlayer.Droid
 {
     //The ConfigurationChanges attributes retains state on rotation. Theme removed action bar and status bar.
     [Activity(Label = "VideoPlayerActivity", Theme = "@android:style/Theme.Black.NoTitleBar.Fullscreen",
-        ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation | Android.Content.PM.ConfigChanges.ScreenSize),]
+        ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation | Android.Content.PM.ConfigChanges.ScreenSize)]
     public class VideoPlayerActivity : Activity
     {
         private VideoView _videoView;
